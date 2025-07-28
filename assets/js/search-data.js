@@ -30,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-math",
+        },{id: "post-my-worst-talk-and-my-best-talk",
         
-          title: "a post with math",
+          title: "my worst talk (and my best talk)",
         
-        description: "an example of a blog post with some math",
+        description: "exciting developments",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2015/math/";
+            window.location.href = "/blog/2025/math/";
           
         },
       },{id: "books-the-godfather",
