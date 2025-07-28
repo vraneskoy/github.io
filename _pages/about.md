@@ -25,7 +25,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<p>👋 I'm a fourth year student pursuing degrees in Mathematics and Chinese, with the intent to pursue a PhD in Mathematics, focusing on the Analysis and PDEs.<p>
-<p>👀 I’m interested in mathematics (especially analysis and probability), learning languages, machine learning, and participating in competitive events like math contests. :)<p>
-<p>🌱 I’m currently participating in a SMALL REU 2025 under supervision of Prof. Steven Miller, Prof. Alex Iosovich, and Prof. Eyvindur Ari Palsoon. This Fall I will be starting my work on my undergraduate honors thesis on Random Matricies with Prof. Mihai Stoichiu.<p>
+<p>👋 I’m a fourth-year student pursuing degrees in Mathematics and Chinese, with the intent to pursue a Ph.D. in Mathematics, focusing on Analysis and Partial Differential Equations (PDEs).<p>
+
+<p>👀 I’m interested in mathematics—especially analysis and probability—learning languages, machine learning, and participating in competitive events like math contests. :)<p>
+
+<p>🌱 I’m currently participating in the SMALL REU 2025 under the supervision of Prof. Steven Miller, Prof. Alex Iosevich, and Prof. Eyvindur Ari Palsson. This fall, I will begin work on my undergraduate honors thesis on random matrices with Prof. Mihai Stoiciu.<p>
+
 <p>📫 You can reach me at vranesko.yana@gmail.com!<p>
