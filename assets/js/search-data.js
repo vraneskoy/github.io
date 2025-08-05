@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-young-mathematician-conference",
+        },{id: "post-young-mathematicians-conference",
         
-          title: "Young Mathematician Conference",
+          title: "Young Mathematicians Conference",
         
         description: "new friends in ohio and other places",
         section: "Posts",
