@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-my-worst-talk-and-my-best-talk",
+        },{id: "post-young-mathematician-conference",
+        
+          title: "Young Mathematician Conference",
+        
+        description: "new friends in ohio and other places",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/YMC/";
+          
+        },
+      },{id: "post-my-worst-talk-and-my-best-talk",
         
           title: "my worst talk (and my best talk)",
         
