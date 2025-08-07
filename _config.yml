@@ -262,8 +262,8 @@ display_categories: ["undergraduate-posts"] # these categories will be displayed
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Vranesko]
+  first_name: [Iana]
 
   style: apa
   locale: en
