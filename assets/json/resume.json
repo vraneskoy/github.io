@@ -30,18 +30,7 @@
       "highlights": ["Signal Recovery", "Fourier Analysis", "Zeckendorf Games", "Zeckendorf Lattices"]
     }
   ],
-  "_comment": "Removed volunteer section for now. Restore if needed: [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
+  "_comment_volunteer": "Removed volunteer section for now. Restore if needed: [ { \"organization\": \"People's Climate March\", \"location\": \"Zurich, Switzerland\", \"position\": \"Lead Organizer\", \"url\": \"https://example.com\", \"startDate\": \"2014-04-01\", \"endDate\": \"2015-07-01\", \"summary\": \"Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.\", \"highlights\": [\"Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.\", \"Men of the year 2014 by Time magazine\"] } ]",
   "education": [
     {
       "institution": "Williams College",
@@ -55,38 +44,8 @@
       "courses": ["Theory of Relativity"]
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "_comment": "Removed certificates section for now. Restore if needed: [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    }
-  ],
+  "_comment_awards": "Removed awards section for now. Restore if needed: [ { \"title\": \"Nobel Prize in Physics\", \"date\": \"1921-11-01\", \"awarder\": \"Royal Swedish Academy of Sciences\", \"url\": \"https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/\", \"summary\": \"The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'\" } ]",
+  "_comment_certificates": "Removed certificates section for now. Restore if needed: [ { \"name\": \"Machine Learning\", \"date\": \"2018-01-01\", \"issuer\": \"Stanford University\", \"url\": \"https://example.com\", \"icon\": \"fa-solid fa-location-dot\" }, { \"name\": \"Quantum Computing\", \"date\": \"2018-01-01\", \"issuer\": \"Stanford University\", \"url\": \"https://example.com\", \"icon\": \"fa-solid fa-tag\" }, { \"name\": \"Quantum Information\", \"date\": \"2018-01-01\", \"issuer\": \"Stanford University\", \"url\": \"https://example.com\", \"icon\": \"fa-solid fa-envelope\" } ]",
   "publications": [
     {
       "name": "Zur Elektrody/namik bewegter Körper",
@@ -154,18 +113,7 @@
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  "_comment_references": "Removed references section for now. Restore if needed: [ { \"name\": \"Professor John Doe\", \"icon\": \"fa-solid fa-laptop\", \"reference\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit...\" }, { \"name\": \"Professor John Doe\", \"icon\": \"fa-solid fa-thumbtack\", \"reference\": \"Lorem ipsum dolor sit amet, consectetur adipiscing elit...\" } ]",
   "projects": [
     {
       "name": "Quantum Computing",
@@ -177,3 +125,4 @@
     }
   ]
 }
+
