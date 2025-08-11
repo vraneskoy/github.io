@@ -1,10 +1,21 @@
-<\p>I'm currently trying to learn more things about harmonic analysis, so I decided to try to get a closer feel of the field. One of the things that attracted my attention was Bourgain-Demeter Decoupling Theorem. There are a lot of materials online by Larry Guth, explaining what decoupling is and how it is useful in fields like number theory and PDEs. I found his lectures to be quite interesting and accessible. He actually has a whole survey paper about the Bourgain-Demeter Decoupling Theorem and what problems we can solve with it, which is also quite entertaining to read. <\p>
+---
+layout: post
+title: Decoupling Pt.1
+date: 2025-08-05 11:12:00-0400
+description: A little something I've been looking at
+tags: analysis math decoupling
+categories: undergraduate-posts
+related_posts: false
+---
 
-<\p>Here I'm trying to summarize what I've learned so far about decoupling in a sort of accessible way for undergraduates with some exposure to Fourier Analysis. <\p>
+<p>I'm currently trying to learn more things about harmonic analysis, so I decided to try to get a closer feel of the field. One of the things that attracted my attention was the Bourgain–Demeter Decoupling Theorem. There are a lot of materials online by Larry Guth, explaining what decoupling is and how it is useful in fields like number theory and PDEs. I found his lectures to be quite interesting and accessible. He actually has a whole survey paper about the Bourgain–Demeter Decoupling Theorem and what problems we can solve with it, which is also quite entertaining to read.</p>
 
-From this point on, I'm going to be using the given definition of Fourier transform. For $$f: \mathbb{R}^n \to \mathbb{C}$$, 
+<p>Here, I'm trying to summarize what I've learned so far about decoupling in a sort of accessible way for undergraduates with some exposure to Fourier Analysis.</p>
+
+<p>From this point on, I'm going to be using the given definition of the Fourier transform. For \(f: \mathbb{R}^n \to \mathbb{C}\),</p>
+
 $$
-\hat{f}(x) = \int_{\mathbb{R}^n} f(m) e^{-2\pi i x \cdot m}dm
+\hat{f}(x) = \int_{\mathbb{R}^n} f(m) e^{-2\pi i x \cdot m} \, dm
 $$
 
 Let $$\Omega \subseteq \mathbb{R}^n$$ be a region in frequency space, which we partition into a finite collection of subregions $$\Theta$$:
@@ -18,6 +29,8 @@ f = \sum_{\Theta} f_\Theta,
 \qquad
 f_\Theta(x) = \int_{\Theta} \widehat{f}(\omega) \, e^{2\pi i \omega \cdot x} \, d\omega.
 $$
+
+{% include figure.liquid loading="eager" path="assets/img/decoupling_1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 When the frequency supports of $$f_\Theta$$ are disjoint, the $$f_\Theta$$ are orthogonal in $$L^2$$, giving the identity
 $$
@@ -44,6 +57,8 @@ $$
 $$
 We partition $$\Omega$$ into $$A$$ rectangles $$\Theta$$, each of dimensions $$\frac{1}{A^2} \times \frac{1}{A}$$.  
 The width $$\frac{1}{A^2}$$ reflects the curvature of the parabola, while the length $$\frac{1}{A}$$ corresponds to the arc-length scale.
+
+{% include figure.liquid loading="eager" path="assets/img/decoupling_2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ---
 
