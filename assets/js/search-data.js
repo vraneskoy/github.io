@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-young-mathematicians-conference",
+        },{id: "post-decoupling-pt-1",
+        
+          title: "Decoupling Pt.1",
+        
+        description: "A little something I&#39;ve been looking at",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/decoupling_p1/";
+          
+        },
+      },{id: "post-young-mathematicians-conference",
         
           title: "Young Mathematicians Conference",
         
