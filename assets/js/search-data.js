@@ -38,7 +38,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/decoupling_p1/";
+            window.location.href = "/blog/2025/decoupling-p1/";
           
         },
       },{id: "post-young-mathematicians-conference",
