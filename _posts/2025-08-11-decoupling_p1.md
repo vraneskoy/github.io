@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Decoupling Pt.1
-date: 2025-08-05 11:12:00-0400
+date: 2025-08-11 8:12:00-0400
 description: A little something I've been looking at
 tags: analysis math decoupling
 categories: undergraduate-posts
